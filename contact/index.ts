@@ -1,12 +1,12 @@
 export class Contacts {
-    static GroupType = {
-        DIRECT: "DIRECT",
-        GROUPT: "GROUP",
-    };
-    //
-    static RoleGroupMembers = {
-        ADMIN: "ADMIN",
-        MANAGEMENT: "MANAGEMENT",
-        MEMBER: "MEMBER",
-    };
+  static GroupType = {
+    DIRECT: 'DIRECT',
+    GROUP: 'GROUP',
+  };
+  //
+  static RoleGroupMembers = {
+    ADMIN: 'ADMIN',
+    MANAGEMENT: 'MANAGEMENT',
+    MEMBER: 'MEMBER',
+  };
 }
