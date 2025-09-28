@@ -30,4 +30,8 @@ export class Contacts {
     PPT: 'application/vnd.ms-powerpoint',
     PPTX: 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
   };
+  static jwt = {
+    ACCESS_TOKEN: 'access_token',
+    REFRESH_TOKEN: 'refresh_token',
+  };
 }
