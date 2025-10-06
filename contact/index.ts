@@ -34,4 +34,10 @@ export class Contacts {
     ACCESS_TOKEN: 'access_token',
     REFRESH_TOKEN: 'refresh_token',
   };
+  static CHAT_BOX_PATH = '/chat-box';
+  static SUBSCRIBE_MESSAGE = {
+    CHAT_BOX: {
+      SEND_MESSAGE: `${this.CHAT_BOX_PATH}/send-message`,
+    },
+  };
 }
