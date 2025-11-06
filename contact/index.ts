@@ -41,8 +41,9 @@ export class Contacts {
     };
 
     static SUBSCRIBE_MESSAGE = {
-        CHAT_BOX: {
-            SEND_MESSAGE: `${NAME_SPACE_SOCKET.CHAT_BOX}/send-message`,
+        CHAT_MESSAGE_SCREEN: {
+            SEND_MESSAGE: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/send-message`,
+            LISTEN_MESSAGE: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/listen-message`,
         },
     };
 }
