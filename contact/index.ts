@@ -1,5 +1,6 @@
 export enum NAME_SPACE_SOCKET {
     CHAT_BOX = "chat-box",
+    CHAT_MESSAGE_SCREEN = "chat-message-screen",
 }
 
 export class Contacts {
