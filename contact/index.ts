@@ -42,6 +42,8 @@ export class Contacts {
 
     static SUBSCRIBE_MESSAGE = {
         CHAT_MESSAGE_SCREEN: {
+            JOIN_LIVE_GROUPCHAT: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/join-group-chat`,
+            LEAVE_LIVE_GROUPCHAT: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/leave-group-chat`,
             SEND_MESSAGE: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/send-message`,
             LISTEN_MESSAGE: `${NAME_SPACE_SOCKET.CHAT_MESSAGE_SCREEN}/listen-message`,
         },
